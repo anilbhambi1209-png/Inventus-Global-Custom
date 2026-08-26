@@ -1,0 +1,146 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Inventus Global Custom",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#DA501F",
+          "name": "Inventus Orange"
+        },
+        {
+          "slug": "primary-amber",
+          "color": "#D8A727",
+          "name": "Inventus Gold Amber"
+        },
+        {
+          "slug": "primary-light",
+          "color": "#FFF5EE",
+          "name": "Soft Peach Tint"
+        },
+        {
+          "slug": "dark",
+          "color": "#1E242B",
+          "name": "Dark Charcoal"
+        },
+        {
+          "slug": "surface",
+          "color": "#FFFFFF",
+          "name": "White"
+        },
+        {
+          "slug": "surface-alt",
+          "color": "#F8FAFC",
+          "name": "Light Slate"
+        },
+        {
+          "slug": "border",
+          "color": "#E5E7EB",
+          "name": "Border Gray"
+        },
+        {
+          "slug": "text-title",
+          "color": "#111827",
+          "name": "Heading Dark"
+        },
+        {
+          "slug": "text-body",
+          "color": "#4B5563",
+          "name": "Body Text"
+        },
+        {
+          "slug": "text-muted",
+          "color": "#6B7280",
+          "name": "Muted Text"
+        }
+      ]
+    },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+          "name": "Outfit (Headings)",
+          "slug": "heading"
+        },
+        {
+          "fontFamily": "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+          "name": "Plus Jakarta Sans (Body)",
+          "slug": "body"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "size": "0.875rem",
+          "slug": "small"
+        },
+        {
+          "name": "Medium",
+          "size": "1rem",
+          "slug": "medium"
+        },
+        {
+          "name": "Large",
+          "size": "1.25rem",
+          "slug": "large"
+        },
+        {
+          "name": "Extra Large",
+          "size": "1.75rem",
+          "slug": "x-large"
+        },
+        {
+          "name": "Hero Title",
+          "size": "clamp(2.4rem, 4.5vw, 3.8rem)",
+          "slug": "hero"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "1180px",
+      "wideSize": "1280px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#FFFFFF",
+      "text": "#4B5563"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--body)",
+      "lineHeight": "1.65"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--heading)",
+          "fontWeight": "700"
+        },
+        "color": {
+          "text": "#111827"
+        }
+      },
+      "button": {
+        "color": {
+          "background": "#DA501F",
+          "text": "#FFFFFF"
+        },
+        "border": {
+          "radius": "50px"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--heading)",
+          "fontWeight": "700"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "#DA501F"
+        }
+      }
+    }
+  }
+}
